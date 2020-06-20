@@ -14,7 +14,7 @@ COPY build/libs/PracticaDeDockerService-0.0.1-SNAPSHOT.jar /app.jar
 ENV JAVA_OPTS=""
 
 # default if no custom port is specified by command line
-ENV PORT=33006
+ENV PORT=8080
 
 # the app will listen on port ####
 EXPOSE ${PORT}
